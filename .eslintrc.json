@@ -26,6 +26,17 @@
         {
           "ts": "never"
         }
+      ],
+        "@typescript-eslint/naming-convention": [
+        "error",
+        {
+          "selector": "interface",
+          "format": ["camelCase"],
+          "custom": {
+            "regex": "^I[A-Z]",
+            "match": true
+          }
+        }
       ]
 
     },
